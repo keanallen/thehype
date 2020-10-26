@@ -10,6 +10,7 @@ overflow: hidden;
 }
 section#welcome{
     height: 90vh !important;
+    margin-top: -350px;
 }
 section#portfolio{
     min-height: 50vh !important;
@@ -268,3 +269,61 @@ footer {
     background-color: #F9F9F9;
   }
   
+
+  /** TRIANGLES **/
+  #purple-outline{
+    position: relative;
+    top: 0px;
+    left: -60px;
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    background-color: transparent;
+    background-image: url('../img/SVG/border\ purple\ triangle.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    transform: rotate(50deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+  }
+
+  #green-outline{
+    position: relative;
+    top: -100px;
+    left: -22px;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    background-image: url('../img/SVG/border\ green\ triangle-svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    transform: rotate(70deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+    
+  }
+
+  #yellow-outline{
+  
+    position: absolute;
+    float: right;
+    right: 150px;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+    background-image: url('../img/SVG/border\ yellow\ triangle-svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    transform: rotate(130deg);
+
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+  }
+  #yellow-outline:hover, #purple-outline:hover, #green-outline:hover,.hovered{
+    -webkit-transform: rotate(360deg) !important;
+    transform: rotate(360deg) !important;
+  }
