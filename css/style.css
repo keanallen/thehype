@@ -1,4 +1,24 @@
 /** Hype Theme **/
+
+@font-face{
+  font-family: 'HelveticaNue';
+  src: url('../fonts/helveticaneue/HelveticaNeue.ttf');
+}
+
+@font-face{
+  font-family: 'HelveticaNueMedium';
+  src: url('../fonts/helveticaneue/HelveticaNeue\ Medium.ttf');
+}
+
+@font-face{
+  font-family: 'HelveticaNueBold';
+  src: url('../fonts/helveticaneue/Helvetica\ Neu\ Bold.ttf');
+}
+
+body{
+  font-family: 'HelveticaNue' !important;
+}
+
 .no-padding-on-tablet{
     padding-left: 3rem;
     padding-right: 3rem;
@@ -41,6 +61,7 @@ nav a.nav-hype-link-4:hover{
     margin: 0 !important;
     line-height: 50px !important;
     padding: 0 !important;
+    font-family: 'HelveticaNueMedium' !important;
 }
 .has-sub-border{
     border-bottom: 8px solid  #AB15B5 ;
@@ -129,10 +150,14 @@ div.slides{
 div.card{
   border: 0 !important;
 }
+div.card-body{
+  font-family: 'Helvetica';
+}
 nav .nav-link{
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     color: #111 !important;
+    font-family: 'Helvetica';
 }
 .hype-slide-title{
     font-size: 6vw;
@@ -156,7 +181,7 @@ footer {
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
     background: linear-gradient(59deg, #3A6073, #16222A);
     color: white;
-   
+   font-family: 'Helvetica';
   }
   
   footer a {
