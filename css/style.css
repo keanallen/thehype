@@ -1,0 +1,270 @@
+/** Hype Theme **/
+.no-padding-on-tablet{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+div.sub-container{
+min-height: 85vh !important;
+max-height: auto !important;
+overflow: hidden;
+}
+section#welcome{
+    height: 90vh !important;
+}
+section#portfolio{
+    min-height: 50vh !important;
+    overflow: hidden !important;
+}
+.bg-light-hype{
+    background-color: #f2f2f2;
+}
+
+nav a.nav-hype-link-1{
+    color: #AB15B5 !important;
+}
+
+nav a.nav-hype-link-2:hover{
+    color:goldenrod !important;
+}
+
+nav a.nav-hype-link-3:hover{
+    color:skyblue !important;
+}
+
+nav a.nav-hype-link-4:hover{
+    color:#AB15B5  !important;
+}
+.hype-txt-bold{
+    font-size: 4vw;
+    font-weight: 500 !important;
+    margin: 0 !important;
+    line-height: 50px !important;
+    padding: 0 !important;
+}
+.has-sub-border{
+    border-bottom: 8px solid  #AB15B5 ;
+    padding-bottom: 10px;
+}
+.has-sub-border.info{
+    border-color: lightseagreen !important;
+}
+.slider-image{
+   margin: 3px !important;
+   height: 290px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#btn-get-started{
+    background-color: #9B59B6 ;
+    border-color: #8E44AD ;
+    padding: 9px !important;
+    border-radius: 0;
+    font-weight:600 !important;
+}
+
+#btn-send-email{
+    background-color: #F1C40F ;
+    border-color: #F1C40F ;
+    padding: 9px !important;
+    border-radius: 0;
+    font-weight:600 !important;
+}
+#btn-send-email:hover{
+    background-color: #F39C12;
+}
+#btn-get-started:hover{
+    background-color: #8E44AD ;
+}
+section#start .hype-large-banner{
+    min-height: 300px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:991px){
+  
+    .no-padding-on-tablet{
+        padding: 0;
+    }
+
+    section#start .container{
+        min-height: 100px !important;
+        height: 100% !important;
+        background-position: top center;
+        background-size: contain;
+      
+    }
+
+    .hype-txt-bold{
+        font-size: 3vw;
+        line-height: 30px !important;
+        text-align: center;
+        display: inline-block;
+    }
+    .hype-txt-string{
+        margin-bottom: 0 !important;
+        margin-top: 20px !important;
+    }
+    .hype-txt-substring{
+        width: 50%;
+        margin-left: 50%;
+        float: right;
+        font-size: 2vw;
+        margin-top: 10px !important;
+    }
+}
+/** Override Slider Container Height **/
+div.slides{
+    height: 300px !important;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/** Override Bootstrap default style **/
+nav .nav-link{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    color: #111 !important;
+}
+.hype-slide-title{
+    font-size: 6vw;
+}
+.hype-slide-subtitle{
+    font-size: 1.8vw;
+}
+
+div.card-img-top{
+    min-height: 200px;
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/** FOOTER */
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+   
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 13px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  .social-network a.icoTwitter:hover {
+    background-color: #00aced;
+  }
+  .social-network a.icoIG:hover {
+    background-color: orangered;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i,
+  .social-network a.icoIG:hover i ,
+  .social-network a.icoTwitter:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  
