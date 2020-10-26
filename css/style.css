@@ -126,6 +126,9 @@ div.slides{
 }
 
 /** Override Bootstrap default style **/
+div.card{
+  border: 0 !important;
+}
 nav .nav-link{
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -327,3 +330,4 @@ footer {
     -webkit-transform: rotate(360deg) !important;
     transform: rotate(360deg) !important;
   }
+
