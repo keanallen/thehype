@@ -18,6 +18,9 @@
 body{
   font-family: 'HelveticaNue' !important;
 }
+p{
+  font-family: 'Helvetica';
+}
 
 .no-padding-on-tablet{
     padding-left: 3rem;
@@ -173,7 +176,6 @@ div.card-img-top{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 /** FOOTER */
 footer {
