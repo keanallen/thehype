@@ -90,6 +90,7 @@
             <!-- Section  Welcome -->
             <section id="welcome" class="d-flex justify-content-around flex-column">
                 <div class="container">
+                    <canvas id="nodes"></canvas>
                     <!-- Slider -->
                     <div class="row">
                         <div class="col-lg-12">
@@ -488,8 +489,27 @@
 
     </div>
     <!-- // MAIN CONTAINER -->
+    <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%;">
 
-
+    </div>
+    <script type="text/javascript" src="js/nodes.js"></script>
+    <script type="text/javascript">
+        var nodesjs = new NodesJs({
+            id: 'nodes',
+            width: window.innerWidth,
+            height: window.innerHeight,
+            particleSize: 2,
+            lineSize: 1,
+            particleColor: [255, 217, 71],
+            lineColor: [255, 217, 71],
+            backgroundFrom: [255, 255, 255],
+            backgroundTo: [255, 255, 255],
+            backgroundDuration: 4000,
+            nobg: false,
+            number: window.hasOwnProperty('orientation') ? 30 : 100,
+            speed: 20
+        });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>

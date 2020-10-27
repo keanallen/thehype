@@ -431,3 +431,13 @@ div.slide>img{
   width: 100%;
   margin: 20px;
 }
+
+
+
+#nodes{
+  width: 60%;
+  margin: auto;
+  position: absolute;
+
+overflow: hidden;
+}
