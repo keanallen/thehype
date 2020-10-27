@@ -116,6 +116,9 @@ section#start .hype-large-banner{
 
 @media screen and (max-width:991px){
   
+  #nodes{
+    display: none;
+  }
   #green-outline,#purple-outline,#yellow-outline{
        width: 100px !important;
   }
