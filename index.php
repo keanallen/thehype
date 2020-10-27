@@ -75,7 +75,15 @@
 
             </div>
 
+            <div data-aos-duration="600" data-aos="flip-right" class="p-2" id="purple-small">
+
+            </div>
+
             <div data-aos-duration="400" data-aos="fade-up" class="p-2" id="green-outline">
+
+            </div>
+
+            <div data-aos-duration="400" data-aos="fade-up" class="p-2" id="green-small">
 
             </div>
 
@@ -505,6 +513,35 @@
         });
         $("p.copytext").html(`&copy; Copyright ${new Date().getFullYear()} - <b>The Hype</b>. All rights
                                     reserved.`)
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://www.inwebson.com/demo/jqfloat/jqfloat.min.js"></script>
+    <script>
+        var jq1 = $.noConflict();
+        $green = jq1("#green-outline");
+
+        jq1("#green-outline,#purple-outline").jqFloat();
+        jq1("#green-small,#purple-small").jqFloat({
+            width: 10,
+            height: 10,
+            speed: 500
+        });
+
+
+
+        let pauseFloat = function(object) {
+            object.on('mouseover', function() {
+                object.jqFloat('stop');
+            }).on('mouseleave', function() {
+                object.jqFloat('play');
+            });
+        }
+
+        pauseFloat(jq1("#green-small"));
+        pauseFloat(jq1("#purple-small"));
+        pauseFloat(jq1("#purple-outline"));
+        pauseFloat(jq1("#green-outline"));
     </script>
 </body>
 
