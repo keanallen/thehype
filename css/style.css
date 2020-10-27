@@ -18,7 +18,7 @@
 body{
   font-family: 'HelveticaNue' !important;
 }
-p,a{
+p,a,label{
   font-family: 'Helvetica';
 }
 a.dropdown-item:hover{
@@ -428,6 +428,6 @@ z-index: 9;
   }
 
 div.slide>img{
-  width: 60%;
-  margin: 0 !important;
+  width: 100%;
+  margin: 20px;
 }

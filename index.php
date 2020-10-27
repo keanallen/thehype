@@ -270,28 +270,43 @@
 
 
                             <div class="slides">
-                                <div class="slider-image" style="background-image: url('https://source.unsplash.com/2gYsZUmockw/400x300');"></div>
+                                <div class="slider-image" style="background-image: url('img/portfolio1.jpeg');"></div>
                             </div>
 
                             <div class="slides">
-                                <div class="slider-image" style="background-image: url('https://source.unsplash.com/EMSDtjVHdQ8/400x300');"></div>
+                                <div class="slider-image" style="background-image: url('img/portfolio2.jpeg');"></div>
                             </div>
 
                             <div class="slides">
-                                <div class="slider-image" style="background-image: url('https://source.unsplash.com/8mUEy0ABdNE/400x300');"></div>
+                                <div class="slider-image" style="background-image: url('img/portfolio3.jpeg');"></div>
+                            </div>
+
+                            <div class="slides">
+                                <div class="slider-image" style="background-image: url('img/portfolio3.jpeg');"></div>
+                            </div>
+
+                            <div class="slides">
+                                <div class="slider-image" style="background-image: url('img/portfolio3.jpeg');"></div>
                             </div>
                         </div>
 
                         <div class="slider slider-nav">
+                            <div>
+                                <img class="img-fluid img-thumbnail" src="img/portfolio1.jpeg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-fluid img-thumbnail" src="img/portfolio2.jpeg" alt="">
+                            </div>
+                            <div>
+                                <img class="img-fluid img-thumbnail" src="img/portfolio3.jpeg" alt="">
+                            </div>
 
                             <div>
-                                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+                                <img class="img-fluid img-thumbnail" src="img/portfolio3.jpeg" alt="">
                             </div>
+
                             <div>
-                                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
-                            </div>
-                            <div>
-                                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                                <img class="img-fluid img-thumbnail" src="img/portfolio3.jpeg" alt="">
                             </div>
 
                         </div>
@@ -303,28 +318,8 @@
                 </div>
             </section>
 
-            <section id="clients">
-                <div class="container">
-                    <div class="row my-5">
-                        <div class="col-lg-12">
-                            <h1 class="hype-txt-bold text-center"><span class="has-sub-border info">Our</span> Clients</h1>
-                            <section class="customer-logos my-5 slider">
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
-                                <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
-                                <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
-                            </section>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr>
+
 
             <section id="contact">
 
@@ -367,6 +362,39 @@
 
 
 
+
+            <section id="clients">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-lg-12">
+                            <h1 class="hype-txt-bold text-center"><span class="has-sub-border info">Our</span> Clients</h1>
+
+
+                            <div class="row mt-5">
+                                <div class="col-lg-4">
+                                    <img width="60%" src="img/client-logo/Jarrah.svg">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img width="60%" src="img/client-logo/Kareem.svg">
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <img width="60%" src="img/client-logo/Lojain.svg">
+                                </div>
+                                <div class="col-lg-4 offset-lg-2">
+                                    <br><br>
+                                    <img width="60%" src="img/client-logo/The-H.svg">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img width="60%" src="img/client-logo/Yalla.svg">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <footer class="mainfooter" role="contentinfo">
                 <div class="footer-middle">
@@ -520,6 +548,7 @@
             fade: true,
             asNavFor: '.slider-nav',
             autoplay: true,
+            infinite: true,
         });
         old_jquery('.slider-nav').slick({
             slidesToShow: 3,
@@ -527,7 +556,8 @@
             asNavFor: '.slider-for',
             dots: true,
             centerMode: true,
-            focusOnSelect: true
+            focusOnSelect: true,
+            infinite: true,
         });
 
         old_jquery('.customer-logos').slick({
@@ -535,6 +565,7 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 900,
+            infinite: true,
             arrows: false,
             dots: false,
             pauseOnHover: false,
