@@ -36,7 +36,7 @@ overflow: hidden;
 }
 section#welcome{
     min-height: 80vh !important;
-    margin-top: -150px;
+    margin-top: -300px;
     z-index: 7;
     
 }

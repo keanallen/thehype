@@ -104,9 +104,7 @@
                                     </div>
                                 </div>
 
-                                <div class="slides text-center">
-                                    <img width="200px" src="https://media.giphy.com/media/sAEbELl0mw5jO/giphy.gif" alt="" srcset="">
-                                </div>
+
                                 <!-- <div class="slides d-flex justify-content-around">
                                     <div>
                                         <h1 data-aos="fade-up" class="hype-slide-title font-weight-bold">Young, Wild & Free!</h1>
@@ -268,70 +266,36 @@
 
                     <div class="col-lg-8">
 
-                        <div class="row text-center text-lg-left">
+                        <div class="slider slider-for d-flex justify-content-center">
 
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
-                                </a>
+
+                            <div class="slides">
+                                <div class="slider-image" style="background-image: url('https://source.unsplash.com/2gYsZUmockw/400x300');"></div>
                             </div>
 
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
-                                </a>
+                            <div class="slides">
+                                <div class="slider-image" style="background-image: url('https://source.unsplash.com/EMSDtjVHdQ8/400x300');"></div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
-                                </a>
+
+                            <div class="slides">
+                                <div class="slider-image" style="background-image: url('https://source.unsplash.com/8mUEy0ABdNE/400x300');"></div>
                             </div>
                         </div>
+
+                        <div class="slider slider-nav">
+
+                            <div>
+                                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+                            </div>
+                            <div>
+                                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+                            </div>
+                            <div>
+                                <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                            </div>
+
+                        </div>
+
                     </div>
 
 
@@ -525,6 +489,24 @@
             autoplaySpeed: 3500,
             arrows: false,
         });
+
+        old_jquery('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav',
+            autoplay: true,
+        });
+        old_jquery('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+
         $("p.copytext").html(`&copy; Copyright ${new Date().getFullYear()} - <b>The Hype</b>. All rights
                                     reserved.`)
     </script>
