@@ -307,7 +307,7 @@
                 <div class="container">
                     <div class="row my-5">
                         <div class="col-lg-12">
-                            <h1 class="hype-txt-bold text-center">Our Clients</h1>
+                            <h1 class="hype-txt-bold text-center"><span class="has-sub-border info">Our</span> Clients</h1>
                             <section class="customer-logos my-5 slider">
                                 <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
                                 <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
@@ -324,13 +324,14 @@
                     </div>
                 </div>
             </section>
+            <hr>
 
             <section id="contact">
 
                 <div class="container">
                     <div class="row my-5">
                         <div class="col-lg-12">
-                            <h1 class="text-center">Contact <span class="has-sub-border info">Us</span></h1>
+                            <h1 class="text-center hype-txt-bold">Contact <span class="has-sub-border info">Us</span></h1>
                         </div>
                         <div class="col-lg-6 mx-auto">
 
@@ -533,7 +534,7 @@
             slidesToShow: 6,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 900,
             arrows: false,
             dots: false,
             pauseOnHover: false,

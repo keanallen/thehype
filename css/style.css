@@ -429,4 +429,5 @@ z-index: 9;
 
 div.slide>img{
   width: 60%;
+  margin: 0 !important;
 }
