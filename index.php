@@ -24,47 +24,49 @@
 
     <!-- MAIN CONTAINER -->
     <div class="container bg-light-hype no-padding-on-tablet">
-        <!-- Header -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.svg" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link nav-hype-link-1" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-hype-link-2" href="#start">We're the hype</a>
-                    </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Portfolio
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" download="We are the Hype - Portfolio" href="/vendor/The-Hype-Profile-Full.pdf"><i class="fa fa-file-pdf"></i> Download Portfolio</a>
-
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link nav-hype-link-4" href="#contact">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- // Header -->
 
 
 
         <!-- SUB CONTAINER-->
         <div class="container-fluid p-0 bg-white shadow sub-container">
 
-            <div data-aos-duration="1000" data-aos="zoom-in" class="p-2 d-none d-lg-block" id="yellow-outline">
+            <!-- Header -->
+            <nav class="navbar navbar-expand-lg navbar-light p-3">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link nav-hype-link-1" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-hype-link-2" href="#start">We're the hype</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" download="We are the Hype - Portfolio" href="/vendor/The-Hype-Profile-Full.pdf"><i class="fa fa-file-pdf"></i> Download Portfolio</a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-hype-link-4" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- // Header -->
+
+            <div data-aos-duration="1000" data-aos="zoom-in" class="p-2" id="yellow-outline">
 
             </div>
 
@@ -81,7 +83,7 @@
                 <div class="container">
                     <!-- Slider -->
                     <div class="row">
-                        <div class="col-lg-10 mx-auto">
+                        <div class="col-lg-12">
                             <section class="lazy text-center slider">
 
                                 <div class="slides d-flex justify-content-around">
