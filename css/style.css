@@ -427,3 +427,6 @@ z-index: 9;
     transform: rotate(360deg) !important;
   }
 
+div.slide>img{
+  width: 60%;
+}
