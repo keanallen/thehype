@@ -18,8 +18,11 @@
 body{
   font-family: 'HelveticaNue' !important;
 }
-p{
+p,a{
   font-family: 'Helvetica';
+}
+a.dropdown-item:hover{
+  color: steelblue;
 }
 
 .no-padding-on-tablet{
