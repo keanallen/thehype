@@ -116,6 +116,30 @@ section#start .hype-large-banner{
 
 @media screen and (max-width:991px){
   
+  #green-outline,#purple-outline,#yellow-outline{
+       width: 100px !important;
+  }
+
+  #purple-outline{
+    top: 0 !important;
+  }
+  #yellow-outline{
+    right:40px !important;
+  }
+  section#welcome{
+    margin-top: -200px !important;
+    
+  }
+  .hype-slide-title{
+    font-size: 5.7vw !important;
+  }
+  .hype-slide-subtitle{
+    font-size: 2vw !important;
+  }
+  div.slides{
+    max-height: 40vh !important;
+  }
+
     .no-padding-on-tablet{
         padding: 0;
     }
