@@ -235,7 +235,7 @@
             <section id="portfolio" class="bg-light">
                 <div class="row my-5">
 
-                    <div class="col-lg-2 text-right d-none d-xl-block d-lg-block">
+                    <div class="offset-lg-1 col-lg-2 text-left d-none d-xl-block d-lg-block">
                         <p data-aos="fade" data-aos-duration="400" class="hype-txt-bold">port-</p>
                         <p data-aos="fade" data-aos-duration="400" class="hype-txt-bold">fo<span class="has-sub-border info">lio</span></p>
                     </div>
@@ -245,40 +245,71 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="row">
+                    <div class="col-lg-8">
 
-                            <div class="col-lg-10 mb-5">
-                                <div class="card">
-                                    <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1578766142938-301663dfe7d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=770&q=80');">
+                        <div class="row text-center text-lg-left">
 
-                                    </div>
-                                    <div class="card-body">
-
-                                        <h6 class="card-price text-center">My Portfolio 1</h6>
-                                        <hr>
-                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                                    </div>
-                                </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                                </a>
                             </div>
 
-                            <div class="col-lg-10 mb-5">
-                                <div class="card">
-                                    <div class="card-img-top" style="background-image: url('https://images.unsplash.com/photo-1489516408517-0c0a15662682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80');">
-
-                                    </div>
-                                    <div class="card-body">
-
-                                        <h6 class="card-price text-center">My Portfolio 2</h6>
-                                        <hr>
-                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                                    </div>
-                                </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                                </a>
                             </div>
-
-
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <a href="#" class="d-block mb-4 h-100">
+                                    <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
