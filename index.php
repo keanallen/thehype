@@ -40,9 +40,17 @@
                     <li class="nav-item">
                         <a class="nav-link nav-hype-link-2" href="#start">We're the hype</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-hype-link-3" href="#portfolio">Portfolio</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" download="We are the Hype - Portfolio" href="/vendor/The-Hype-Profile-Full.pdf"><i class="fa fa-file-pdf"></i> Download Portfolio</a>
+
+                        </div>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link nav-hype-link-4" href="#contact">Contact Us</a>
                     </li>
