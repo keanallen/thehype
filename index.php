@@ -97,7 +97,7 @@
                                 </div>
 
 
-                                <div class="slides d-flex justify-content-around">
+                                <!-- <div class="slides d-flex justify-content-around">
                                     <div>
                                         <h1 data-aos="fade-up" class="hype-slide-title font-weight-bold">Young, Wild & Free!</h1>
                                         <h3 data-aos="fade-right" class="hype-slide-subtitle">So what we get drunk?
@@ -108,7 +108,7 @@
 
                                 <div class="slides">
                                     <div class="slider-image" style="background-image: url('img/960x300.png');"></div>
-                                </div>
+                                </div> -->
 
                             </section>
                         </div>
