@@ -49,8 +49,8 @@
                             <a class="nav-link nav-hype-link-2" href="#start">We're the hype</a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li id="hoverMenu" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#portfolio" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Portfolio
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -67,23 +67,23 @@
             </nav>
             <!-- // Header -->
 
-            <div data-aos-duration="1000" data-aos="zoom-in" class="p-2" id="yellow-outline">
+            <div class="p-2" id="yellow-outline">
 
             </div>
 
-            <div data-aos-duration="600" data-aos="flip-right" class="p-2" id="purple-outline">
+            <div class="p-2" id="purple-outline">
 
             </div>
 
-            <div data-aos-duration="600" data-aos="flip-right" class="p-2" id="purple-small">
+            <div class="p-2" id="purple-small">
 
             </div>
 
-            <div data-aos-duration="400" data-aos="fade-up" class="p-2" id="green-outline">
+            <div class="p-2" id="green-outline">
 
             </div>
 
-            <div data-aos-duration="400" data-aos="fade-up" class="p-2" id="green-small">
+            <div class="p-2" id="green-small">
 
             </div>
 
@@ -104,7 +104,9 @@
                                     </div>
                                 </div>
 
-
+                                <div class="slides text-center">
+                                    <img width="200px" src="https://media.giphy.com/media/sAEbELl0mw5jO/giphy.gif" alt="" srcset="">
+                                </div>
                                 <!-- <div class="slides d-flex justify-content-around">
                                     <div>
                                         <h1 data-aos="fade-up" class="hype-slide-title font-weight-bold">Young, Wild & Free!</h1>
@@ -490,6 +492,18 @@
 
 
         });
+        $("#hoverMenu").on('mouseenter', () => {
+            $("#hoverMenu").addClass('show');
+            $("#hoverMenu a").attr('expanded', 'true');
+            $("#hoverMenu div.dropdown-menu").addClass('show');
+        }).on('mouseleave', () => {
+            $("#hoverMenu").removeClass('show');
+            $("#hoverMenu a").attr('expanded', 'false');
+            $("#hoverMenu div.dropdown-menu").removeClass('show');
+        });
+        $("#hoverMenu").on('click', () => {
+            window.location.href = "/#portfolio";
+        });
     </script>
     <!-- AOS Animate JS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -523,8 +537,8 @@
 
         jq1("#green-outline,#purple-outline").jqFloat();
         jq1("#green-small,#purple-small").jqFloat({
-            width: 10,
-            height: 10,
+            width: 100,
+            height: 100,
             speed: 500
         });
 
