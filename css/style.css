@@ -128,9 +128,10 @@ section#start .hype-large-banner{
   }
   #yellow-outline{
     right:40px !important;
+    position: absolute;
   }
   section#welcome{
-    margin-top: -200px !important;
+    margin-top: -250px !important;
     
   }
   .hype-slide-title{

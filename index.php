@@ -594,11 +594,14 @@
         var jq1 = $.noConflict();
         $green = jq1("#green-outline");
 
-        jq1("#green-outline,#purple-outline").jqFloat();
+        jq1("#green-outline,#purple-outline").jqFloat({
+
+            speed: 300
+        });
         jq1("#green-small,#purple-small").jqFloat({
             width: 100,
             height: 100,
-            speed: 500
+            speed: 300
         });
 
 
