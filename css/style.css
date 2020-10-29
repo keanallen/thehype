@@ -119,7 +119,11 @@ section#start .hype-large-banner{
   #nodes{
     display: none;
   }
-  #green-outline,#purple-outline,#yellow-outline{
+
+  #green-outline,#purple-outline,#yellow-outline,#purple-small,#green-small{
+    display: none !important;
+  }
+  /* #green-outline,#purple-outline,#yellow-outline{
        width: 100px !important;
   }
 
@@ -129,10 +133,12 @@ section#start .hype-large-banner{
   #yellow-outline{
     right:40px !important;
     position: absolute;
-  }
+  } */
   section#welcome{
-    margin-top: -250px !important;
-    
+    margin-top: -350px !important;
+    position: relative;
+    top:-200px;
+    width: 100%;
   }
   .hype-slide-title{
     font-size: 5.7vw !important;
